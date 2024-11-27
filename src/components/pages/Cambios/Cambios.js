@@ -1,13 +1,13 @@
 import React from 'react';
 
-export const Cambios = () => {
+const Cambios = () => {
     return (
         <main id="contenido-principal" className="container">
             <h2 className="text-center mt-4">CAMBIOS</h2>
             <div className="contenido-cambios">
                 <div className="imagen-cambios">
                     <img
-                        src={require('../../../assets/images/img-pufer-marron3.jpeg').default}
+                        src={require('../../../assets/images/img-pufer-marron3.jpeg')}
                         alt="Imagen de cambios"
                         className="img-fluid"
                     />
@@ -34,3 +34,5 @@ export const Cambios = () => {
         </main>
     );
 };
+
+export default Cambios;

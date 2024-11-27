@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-export const Inicio = () => {
+const Inicio = () => {
     return (
         <div className="inicio-container">
             <div className="carousel-wrapper">

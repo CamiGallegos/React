@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Contacto = () => {
+const Contacto = () => {
     return (
         <main id="contenido-principal" className="container">
             <h2 className="text-center mt-4">CONTACTO</h2>
@@ -53,3 +53,5 @@ export const Contacto = () => {
         </main>
     );
 };
+
+export default Contacto;

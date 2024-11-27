@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Preguntas = () => {
+const Preguntas = () => {
     return (
         <section id="contenido-principal" className="container">
             <h2 className="text-center mt-4">PREGUNTAS FRECUENTES</h2>
@@ -59,6 +59,7 @@ export const Preguntas = () => {
                 <div id="mapa" className="mt-3">
                     <div className="ratio ratio-16x9">
                         <iframe
+                            title="Mapa de puntos de retiro"
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13085.579441111213!2d-57.9599073!3d-34.9216328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e70ae8058711%3A0xd8f8676fd2e7b636!2sCAYETANO!5e0!3m2!1ses-419!2sar!4v1711485730910!5m2!1ses-419!2sar"
                             allowFullScreen=""
                             loading="lazy"
@@ -73,3 +74,5 @@ export const Preguntas = () => {
         </section>
     );
 };
+
+export default Preguntas;
